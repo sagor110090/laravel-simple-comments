@@ -1,18 +1,18 @@
 {
-    "name": "beyondcode/laravel-comments",
+    "name": "sagor110090/laravel-simple-comments",
     "description": "Add comments to your Laravel application",
     "keywords": [
         "beyondcode",
         "comments",
         "laravel-comments"
     ],
-    "homepage": "https://github.com/beyondcode/laravel-comments",
+    "homepage": "mehedihasansagor.com",
     "license": "MIT",
     "authors": [
         {
-            "name": "Marcel Pociot",
-            "email": "marcel@beyondco.de",
-            "homepage": "https://beyondcode.de",
+            "name": "mehedi hasan sagor",
+            "email": "mehedihasansagor.cse@gmail.com",
+            "homepage": "https://mehedihasansagor.com",
             "role": "Developer"
         }
     ],
