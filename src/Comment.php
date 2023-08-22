@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\Comments;
+namespace Sagor110090\Comments;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use BeyondCode\Comments\Traits\HasComments;
+use Sagor110090\Comments\Traits\HasComments;
 
 class Comment extends Model
 {
@@ -43,7 +43,7 @@ class Comment extends Model
 
         return $this;
     }
-  
+
     public function disapprove()
     {
         $this->update([

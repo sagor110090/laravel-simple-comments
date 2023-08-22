@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\Comments\Tests;
+namespace Sagor110090\Comments\Tests;
 
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Database\Schema\Blueprint;
-use BeyondCode\Comments\CommentsServiceProvider;
+use Sagor110090\Comments\CommentsServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {

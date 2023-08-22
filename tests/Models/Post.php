@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\Comments\Tests\Models;
+namespace Sagor110090\Comments\Tests\Models;
 
-use BeyondCode\Comments\Traits\HasComments;
+use Sagor110090\Comments\Traits\HasComments;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model

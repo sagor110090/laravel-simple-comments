@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\Comments;
+namespace Sagor110090\Comments;
 
 use Illuminate\Support\ServiceProvider;
 

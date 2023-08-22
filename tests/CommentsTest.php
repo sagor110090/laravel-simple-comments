@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\Comments\Tests;
+namespace Sagor110090\Comments\Tests;
 
-use BeyondCode\Comments\Tests\Models\ApprovedUser;
-use BeyondCode\Comments\Tests\Models\Post;
+use Sagor110090\Comments\Tests\Models\ApprovedUser;
+use Sagor110090\Comments\Tests\Models\Post;
 use Illuminate\Foundation\Auth\User;
 
 class CommentsTest extends TestCase

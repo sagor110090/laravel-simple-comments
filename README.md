@@ -1,9 +1,9 @@
 # Add comments to your Laravel application
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/beyondcode/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-comments)
-[![Build Status](https://img.shields.io/travis/beyondcode/laravel-comments/master.svg?style=flat-square)](https://travis-ci.org/beyondcode/laravel-comments)
-[![Quality Score](https://img.shields.io/scrutinizer/g/beyondcode/laravel-comments.svg?style=flat-square)](https://scrutinizer-ci.com/g/beyondcode/laravel-comments)
-[![Total Downloads](https://img.shields.io/packagist/dt/beyondcode/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/beyondcode/laravel-comments)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Sagor110090/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/Sagor110090/laravel-comments)
+[![Build Status](https://img.shields.io/travis/Sagor110090/laravel-comments/master.svg?style=flat-square)](https://travis-ci.org/Sagor110090/laravel-comments)
+[![Quality Score](https://img.shields.io/scrutinizer/g/Sagor110090/laravel-comments.svg?style=flat-square)](https://scrutinizer-ci.com/g/Sagor110090/laravel-comments)
+[![Total Downloads](https://img.shields.io/packagist/dt/Sagor110090/laravel-comments.svg?style=flat-square)](https://packagist.org/packages/Sagor110090/laravel-comments)
 
 Add the ability to associate comments to your Laravel Eloquent models. The comments can be approved and nested.
 
@@ -20,7 +20,7 @@ $post->commentAsUser($user, 'This is a comment from someone else');
 You can install the package via composer:
 
 ```bash
-composer require beyondcode/laravel-comments
+composer require Sagor110090/laravel-comments
 ```
 
 The package will automatically register itself.
@@ -28,7 +28,7 @@ The package will automatically register itself.
 You can publish the migration with:
 
 ```bash
-php artisan vendor:publish --provider="BeyondCode\Comments\CommentsServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Sagor110090\Comments\CommentsServiceProvider" --tag="migrations"
 ```
 
 After the migration has been published you can create the media-table by running the migrations:
@@ -40,7 +40,7 @@ php artisan migrate
 You can publish the config-file with:
 
 ```bash
-php artisan vendor:publish --provider="BeyondCode\Comments\CommentsServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Sagor110090\Comments\CommentsServiceProvider" --tag="config"
 ```
 
 ## Usage
@@ -53,7 +53,7 @@ To let your models be able to receive comments, add the `HasComments` trait to t
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use BeyondCode\Comments\Traits\HasComments;
+use Sagor110090\Comments\Traits\HasComments;
 
 class Post extends Model
 {
@@ -103,7 +103,7 @@ If you want to automatically approve a comment for a specific user (and optional
 ```php
 namespace App\Models;
 
-use BeyondCode\Comments\Contracts\Commentator;
+use Sagor110090\Comments\Contracts\Commentator;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable implements Commentator

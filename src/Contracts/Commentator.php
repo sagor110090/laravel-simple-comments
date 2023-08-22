@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\Comments\Contracts;
+namespace Sagor110090\Comments\Contracts;
 
 
 interface Commentator

@@ -2,7 +2,7 @@
     "name": "sagor110090/laravel-simple-comments",
     "description": "Add comments to your Laravel application",
     "keywords": [
-        "beyondcode",
+        "Sagor110090",
         "comments",
         "laravel-comments"
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BeyondCode\\Comments\\": "src"
+            "Sagor110090\\Comments\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BeyondCode\\Comments\\Tests\\": "tests"
+            "Sagor110090\\Comments\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BeyondCode\\Comments\\CommentsServiceProvider"
+                "Sagor110090\\Comments\\CommentsServiceProvider"
             ]
         }
     }
